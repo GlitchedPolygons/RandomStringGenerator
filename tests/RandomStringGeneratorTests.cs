@@ -15,6 +15,7 @@
 */
 
 using System;
+using System.Linq;
 using Xunit;
 
 namespace GlitchedPolygons.Utilities.RandomStringGenerator.UnitTests
@@ -86,8 +87,17 @@ namespace GlitchedPolygons.Utilities.RandomStringGenerator.UnitTests
         [InlineData("öäü*ç%&/+¦|¢(=§5234¨__[")]
         public void GenerateRandomString_GeneratedStringOnlyContainsLegalCharacters(string legalChars)
         {
+            bool fail = false;
             string str = RandomStringGenerator.GenerateRandomString(legalChars);
-            throw null;
+            foreach (char c in str)
+            {
+                if (!legalChars.Contains(c))
+                {
+                    fail = true;
+                    break;
+                }
+            }
+            Assert.False(fail);
         }
 
         [Fact]
