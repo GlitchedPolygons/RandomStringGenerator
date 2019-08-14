@@ -1,0 +1,56 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator
+  name: GlitchedPolygons.Utilities.RandomStringGenerator
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.html
+  commentId: N:GlitchedPolygons.Utilities.RandomStringGenerator
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator
+  nameWithType: GlitchedPolygons.Utilities.RandomStringGenerator
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator
+  name: RandomStringGenerator
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.html
+  commentId: T:GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator
+  nameWithType: RandomStringGenerator
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.Char[],System.Int32)
+  name: GenerateRandomString(Char[], Int32)
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.html#GlitchedPolygons_Utilities_RandomStringGenerator_RandomStringGenerator_GenerateRandomString_System_Char___System_Int32_
+  commentId: M:GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.Char[],System.Int32)
+  name.vb: GenerateRandomString(Char(), Int32)
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.Char[], System.Int32)
+  fullName.vb: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.Char(), System.Int32)
+  nameWithType: RandomStringGenerator.GenerateRandomString(Char[], Int32)
+  nameWithType.vb: RandomStringGenerator.GenerateRandomString(Char(), Int32)
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.Int32)
+  name: GenerateRandomString(Int32)
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.html#GlitchedPolygons_Utilities_RandomStringGenerator_RandomStringGenerator_GenerateRandomString_System_Int32_
+  commentId: M:GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.Int32)
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.Int32)
+  nameWithType: RandomStringGenerator.GenerateRandomString(Int32)
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.String,System.Int32)
+  name: GenerateRandomString(String, Int32)
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.html#GlitchedPolygons_Utilities_RandomStringGenerator_RandomStringGenerator_GenerateRandomString_System_String_System_Int32_
+  commentId: M:GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.String,System.Int32)
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString(System.String, System.Int32)
+  nameWithType: RandomStringGenerator.GenerateRandomString(String, Int32)
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString*
+  name: GenerateRandomString
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.html#GlitchedPolygons_Utilities_RandomStringGenerator_RandomStringGenerator_GenerateRandomString_
+  commentId: Overload:GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString
+  isSpec: "True"
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GenerateRandomString
+  nameWithType: RandomStringGenerator.GenerateRandomString
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GetDefaultLegalChars
+  name: GetDefaultLegalChars()
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.html#GlitchedPolygons_Utilities_RandomStringGenerator_RandomStringGenerator_GetDefaultLegalChars
+  commentId: M:GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GetDefaultLegalChars
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GetDefaultLegalChars()
+  nameWithType: RandomStringGenerator.GetDefaultLegalChars()
+- uid: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GetDefaultLegalChars*
+  name: GetDefaultLegalChars
+  href: api/GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.html#GlitchedPolygons_Utilities_RandomStringGenerator_RandomStringGenerator_GetDefaultLegalChars_
+  commentId: Overload:GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GetDefaultLegalChars
+  isSpec: "True"
+  fullName: GlitchedPolygons.Utilities.RandomStringGenerator.RandomStringGenerator.GetDefaultLegalChars
+  nameWithType: RandomStringGenerator.GetDefaultLegalChars

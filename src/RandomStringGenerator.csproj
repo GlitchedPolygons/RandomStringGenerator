@@ -1,0 +1,44 @@
+﻿<!--
+   Copyright 2019 Raphael Beck
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Glitched Polygons</Authors>
+        <Company>Glitched Polygons</Company>
+        <Title>GlitchedPolygons.Utilities.RandomStringGenerator</Title>
+        <RootNamespace>GlitchedPolygons.Utilities.RandomStringGenerator</RootNamespace>
+        <AssemblyName>GlitchedPolygons.Utilities.RandomStringGenerator</AssemblyName>
+        <Product>GlitchedPolygons.Utilities.RandomStringGenerator</Product>
+        <PackageId>GlitchedPolygons.Utilities.RandomStringGenerator</PackageId>
+        <RepositoryUrl>https://github.com/GlitchedPolygons/RandomStringGenerator</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/GlitchedPolygons/RandomStringGenerator</PackageProjectUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageIconUrl>https://media.githubusercontent.com/media/GlitchedPolygons/NugetIcons/60ca218c633b6506b2e81c7199dafc5438193a1b/random-icon.png</PackageIconUrl>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\netstandard2.0\$(AssemblyName).xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DocumentationFile>bin\Release\netstandard2.0\$(AssemblyName).xml</DocumentationFile>
+    </PropertyGroup>
+
+</Project>
